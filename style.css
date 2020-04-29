@@ -4,11 +4,13 @@ html{
 h2,h3,h4 {
     text-align: center;
     font-family: 'Bangers', cursive;
-    
+    opacity: .7;
+    text-decoration: overline;
 }
 table {
     width: 600px; 
     margin: auto; 
+    border-radius: ;
 }
 
 th {
@@ -17,7 +19,18 @@ th {
     background-color: goldenrod;
     font-size: 25px;
 }
-
+th:first-child {
+    border-top-left-radius: 10px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
 td {
     font-family: 'Bahianita', cursive;
     text-align: center;
@@ -34,7 +47,8 @@ form {
 label {
     font-family: 'Bahianita', cursive;
     font-size: 25px;
-    color:Black;
+    color:black;
+
 }
 p {
     font-family: 'Bahianita', cursive;
@@ -49,15 +63,15 @@ textarea {
     font-family: 'Bahianita', cursive;
     font-size: 25px;
     display: block;
-    width: 280px;
-    padding: 0 20px;
+    width: 320px;
     margin-bottom: 10px;
     line-height: 30px;
     margin: auto;
     border: 2px solid goldenrod;
+    border-radius: 10px;
 }
 ::placeholder {
-    color: #999 ; 
+    color: #999; 
     text-align: center;
 }
 select {
@@ -69,6 +83,7 @@ select {
     border: 2px solid goldenrod;
     margin: auto;
     margin-top: 20px;
+    border-radius: 10px;
 }
 input[type="submit"]{
     font-family: 'Bahianita', cursive;
@@ -80,9 +95,18 @@ input[type="submit"]{
     padding: 0 50px;
     line-height: 30px;
     border-width: 0;
+    border-radius: 10px;
 }
 input[type="text"]{
     border: 2px solid goldenrod;
     line-height: 30px;
     width: 320px;
+    border-radius: 10px;
+}
+
+#mid {
+    margin-right: 12px;
+}
+#uk {
+    margin-left: 15px;
 }
