@@ -53,13 +53,13 @@ textarea {
     padding: 0 20px;
     margin-bottom: 10px;
     line-height: 30px;
-    border-width: 0;
     margin: auto;
     border: 2px solid goldenrod;
 }
 ::placeholder {
     color: #999 ; 
     text-align: center;
+    padding: 13px 0;
 }
 select {
     font-family: 'Bahianita', cursive;
