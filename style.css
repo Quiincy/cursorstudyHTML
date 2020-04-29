@@ -1,23 +1,5 @@
 html{
-    background-color: wheat;
-    background-image: radial-gradient(black 76%, transparent 0),
-    radial-gradient(goldenrod 72%, transparent 0),
-    radial-gradient(black 68%, transparent 0),
-    radial-gradient(goldenrod 64%, transparent 0),
-    radial-gradient(black 60%, transparent 0),
-    radial-gradient(goldenrod 56%, transparent 0),
-    radial-gradient(black 52%, transparent 0),
-    radial-gradient(goldenrod 48%, transparent 0),
-    radial-gradient(black 44%, transparent 0),
-    radial-gradient(goldenrod 40%, transparent 0),
-    radial-gradient(black 36%, transparent 0),
-    radial-gradient(goldenrod 32%, transparent 0),
-    radial-gradient(black, transparent 0),
-    radial-gradient(goldenrod 24%, transparent 0);  
-    background-size: 3em 3em;
-    background-repeat: repeat-y;
-    background-position: 0 0, 1em 0, 2em 0, 3em 0, 4em 0, 5em 0, 6em 0, 7em 0, 8em 0, 9em 0, 10em 0, 11em 0, 12em 0, 13em 0;
-}
+    background-color:wheat;}
 h2,h3,h4 {
     text-align: center;
     font-family: 'Bangers', cursive;
